@@ -2,7 +2,7 @@ Name of Quantlet: 'indices-ccVStrad'
 
 Published in: 'Comparing Cryptocurrency Indices to Traditional Indices'
 
-Description: 'This Quantlet allows to plot the considered indices, as well as their returns, distributions, correlations and volatilities, in order to compare the CC indices to the traditional indices.'
+Description: 'This Quantlet allows to plot the considered indices, as well as their returns, density functions, correlations and volatilities, in order to compare the CC indices to the traditional indices.'
 
 Keywords: 'Index, Cryptocurrency, CRIX, Index comparison, Stock market indices' 
 
