@@ -1,4 +1,4 @@
-Name of Quantlet: 'indices_ccVStrad'
+Name of Quantlet: 'crixVStrad'
 
 Published in: 'Comparing Cryptocurrency Indices to Traditional Indices'
 
