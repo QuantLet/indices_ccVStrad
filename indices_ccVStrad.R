@@ -185,6 +185,7 @@ lines(density(rw5000), col="#B3DE69", lwd=2)
 crix.tmi.dax.cdax.sp500.w5000= cbind(crix,tmi,dax,cdax,sp500,w5000)
 res1 <- rcorr(as.matrix(crix.tmi.dax.cdax.sp500.w5000), type = "spearman")
 res1
+res1$P[is.na(res1$P)] = 1
 corrplot(res1$r, method = 'color', type="upper", order="AOE", tl.col = 'black', col = brewer.pal(n = 10, name = 'BrBG'), 
          p.mat = res1$P, sig.level = 0.05, insig = "blank",
          addCoef.col = TRUE,  number.cex=0.8)
